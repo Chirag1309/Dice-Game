@@ -1,1 +1,1 @@
-# Dice-Game-A Basic game of 2 players made using Html,JavaScript and Css!!
+Dice game-A basic Dice game using html,css and javascript.
