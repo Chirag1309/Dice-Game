@@ -18,12 +18,11 @@ const gamePlay = () => {
   var y="images/"+randomDice2;
   document.querySelectorAll("img")[1].setAttribute("src",y);
   if(randomVar2>randomVar){
-    document.querySelector("h1").innerHTML="Player2 Wins!";
+    document.querySelector("h1").innerHTML="Computer Wins!";
   }else if(randomVar2<randomVar) {
-    document.querySelector("h1").innerHTML="Player1 Wins";
+    document.querySelector("h1").innerHTML="You Win!";
+    fireworks.start();
   }else{
     document.querySelector("h1").innerHTML="DRAW!!";
   }
 }
-
-
